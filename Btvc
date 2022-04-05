@@ -1,0 +1,10 @@
+/*
+2	 *  hdac-ext-stream.c - HD-audio extended stream operations.
+3	 *
+4	 *  Copyright (C) 2015 Intel Corp
+…	
+24	#include <sound/hdaudio_ext.h>
+25	
+26	/**
+27	 * snd_hdac_ext_stream_init - initialize each stream (aka device)
+28	 * @ebus: HD-audio ext core bus
